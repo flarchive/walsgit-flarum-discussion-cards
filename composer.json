@@ -1,0 +1,61 @@
+{
+    "name": "walsgit/flarum-discussion-cards",
+    "description": "Output of discussions lists in form of cards",
+    "type": "flarum-extension",
+    "keywords": [
+        "flarum",
+        "extension",
+        "discussion",
+        "cards"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wa!id",
+            "homepage": "https://discuss.flarum.org/u/Walid"
+        }
+    ],
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://walsgit.github.io/Donations/"
+        }
+    ],
+    "require": {
+        "flarum/core": "^2.0.0-beta",
+        "flarum/tags": "^2.0.0-beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "Walsgit\\Discussion\\Cards\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Flarum Discussion Cards",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-border-all",
+                "backgroundColor": "#008e97",
+                "color": "#fff"
+            }
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "test -f flarum && php flarum discussion-cards:regenerate-images -l -t -N || echo \"(Discussion Cards card images generation ignored: Not in Flarum folder)\""
+        ],
+        "post-update-cmd": [
+            "@migrate-discussion-cards"
+        ],
+        "migrate-discussion-cards": [
+            "test -f flarum && php flarum discussion-cards:migrate-images || echo \"(Discussion Cards image migration ignored: Not in Flarum folder)\""
+        ]
+    },
+    "support": {
+        "issues": "https://github.com/WalsGit/flarum-discussion-cards/issues",
+        "forum": "https://discuss.flarum.org/d/36343-flarum-discussion-cards",
+        "docs": "https://github.com/WalsGit/flarum-discussion-cards/wiki",
+        "source": "https://github.com/WalsGit/flarum-discussion-cards"
+    }
+}
