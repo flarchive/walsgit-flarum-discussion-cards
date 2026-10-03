@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of walsgit/flarum-discussion-cards.** Not for installation: use [Packagist](https://packagist.org/packages/walsgit/flarum-discussion-cards) or the [upstream repository](https://github.com/WalsGit/flarum-discussion-cards).
 
-**0** versions archived · Latest: [`2.0.1`](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v2.0.1) · License: `MIT` · Flarum: `^2.0.0-beta`
+**16** versions archived · Latest: [`2.0.1`](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v2.0.1) · License: `MIT` · Flarum: `^2.0.0-beta`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2024-11-15 | `^1.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.0.0) |
+| `1.0.1` | 2024-11-15 | `^1.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.0.1) |
+| `1.0.2` | 2024-11-15 | `^1.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.0.2) |
+| `1.0.3` | 2024-11-15 | `^1.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.0.3) |
+| `1.0.4` | 2024-11-16 | `^1.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.0.4) |
+| `1.1.0` | 2024-11-22 | `^1.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.1.0) |
+| `1.1.1` | 2024-11-25 | `^1.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.1.1) |
+| `1.2.0` | 2024-12-17 | `^1.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.2.0) |
+| `1.3.0` | 2025-05-29 | `^1.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.3.0) |
+| `1.4.0` | 2026-04-07 | `^1.8.0` | [Browse](https://github.com/flarchive/walsgit-flarum-discussion-cards/tree/archive/v1.4.0) |
+
+[View all 16 versions](https://github.com/flarchive/walsgit-flarum-discussion-cards/tags)
 
 Catalog entry: [packages/walsgit-flarum-discussion-cards.json](https://github.com/flarchive/archive-index/blob/main/packages/walsgit-flarum-discussion-cards.json)
 
